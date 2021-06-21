@@ -7,7 +7,7 @@
      * fourth : ACCESS_TOKEN_SECRET
   * The final result should be something like :
   
-       \# CONSUMER_KEY
+       \# CONSUMER_KEY 
        cChZNFj6T5R0TigYB9yd1w
        3. \# CONSUMER_SECRET
        4. veNRnAWe6inFuo8o2u8SLLZLjolYDmDP7SzL0YfYI
