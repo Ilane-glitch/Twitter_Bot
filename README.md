@@ -7,18 +7,18 @@
      * fourth : ACCESS_TOKEN_SECRET
   * The final result should be something like :
   
-       1-\# CONSUMER_KEY
+       1_ \# CONSUMER_KEY
         
-       2- cChZNFj6T5R0TigYB9yd1w
-       3-\# CONSUMER_SECRET
+       2_ cChZNFj6T5R0TigYB9yd1w
+       3_ \# CONSUMER_SECRET
        
-       4-veNRnAWe6inFuo8o2u8SLLZLjolYDmDP7SzL0YfYI
+       4_ veNRnAWe6inFuo8o2u8SLLZLjolYDmDP7SzL0YfYI
         
-       5-\# ACCESS_TOKEN
+       5_ \# ACCESS_TOKEN
        
-       6-7588892-kagSNqWge8gB1WwE3plnFsJHAZVfxWD7Vb57p0b4
+       6_ 7588892-kagSNqWge8gB1WwE3plnFsJHAZVfxWD7Vb57p0b4
         
-       7-\# ACCESS_TOKEN_SECRET
+       7_ \# ACCESS_TOKEN_SECRET
        
-       8-PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo
+       8_ PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo
         
