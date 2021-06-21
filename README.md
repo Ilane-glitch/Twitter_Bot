@@ -8,7 +8,7 @@
   * The final result should be something like :
   
        \# CONSUMER_KEY
-        cChZNFj6T5R0TigYB9yd1w
+        cChZNFj6T5R0TigYB9yd1w \n
        \# CONSUMER_SECRET
         veNRnAWe6inFuo8o2u8SLLZLjolYDmDP7SzL0YfYI
        \# ACCESS_TOKEN
