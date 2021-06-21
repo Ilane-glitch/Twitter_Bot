@@ -1,5 +1,5 @@
 # Twitter_Bot
-## How it's work ?
+## How it works ?
   * Use the key file to enter inside the deferents keys needed bellow the sections seperated by a '#'
      * first : CONSUMER_KEY
      * second : CONSUMER_SECRET
