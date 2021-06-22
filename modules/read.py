@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 
 __author__ = "Ilane"
-__version__ = "0.1"
 
 '''
     Imports
 '''
-import tweepy
 from shutil import copyfile
 import os
 
@@ -16,11 +14,6 @@ import os
 # Paths of the differents files
 key = 'key.txt'
 temp = 'temp.txt'
-# Tweep keys
-consumer_key = ''
-consumer_secret = ''
-access_token =''
-access_token_secret = ''
 
 '''
     Functions
@@ -54,21 +47,4 @@ def load_temp(key,temp):
 def del_temp(temp):
     os.remove(temp)
 
-'''
-    Main
-'''
-# Setup all the keys from the key File
-load_temp(key,temp)
-consumer_key, consumer_secret, access_token, access_token_secret = return_keys()
-del_temp(temp)
-
-# Authenticate to Twitter
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-
-# Create API object
-api = tweepy.API(auth)
-
-# Create a tweet
-api.update_status("Hello Tweepy")
     
