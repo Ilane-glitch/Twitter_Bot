@@ -31,3 +31,9 @@ def tweetCall(message):
     # Create a tweet
     api.update_status(message)
 
+    try:
+        api.verify_credentials()
+        print("Authentication OK")
+    except:
+        print("Error during authentication")
+
