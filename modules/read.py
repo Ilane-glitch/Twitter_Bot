@@ -5,6 +5,7 @@ __author__ = "Ilane"
 '''
     Imports
 '''
+
 from shutil import copyfile
 import os
 
@@ -12,13 +13,14 @@ import os
     Variables
 '''
 # Paths of the differents files
-key = 'key.txt'
-temp = 'temp.txt'
+path = os.getcwd()
+key =  path + r'\modules\key.txt'
+temp = path + r'\modules\temp.txt'
 
 '''
     Functions
 '''
-# Makes a copy of the key file
+#copy the key file as the temp file
 def save_file(key,temp):
     copyfile(key,temp)
 
@@ -47,4 +49,8 @@ def load_temp(key,temp):
 def del_temp(temp):
     os.remove(temp)
 
-    
+def test ():
+    load_temp(key, temp)
+    consumer_key, consumer_secret, access_token, access_token_secret = return_keys()
+    print(consumer_key, consumer_secret, access_token, access_token_secret)
+    del_temp(temp)
