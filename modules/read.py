@@ -38,7 +38,7 @@ def replace_all(path_):
 def return_keys():
     file = open(temp, "r")
     file.seek(0)
-    return file.readline(), file.readline(), file.readline(), file.readline()
+    return file.readline().replace('\n', ''), file.readline().replace('\n', ''), file.readline().replace('\n', ''), file.readline().replace('\n', '')
 
 # Copy the keys and remove the '#' from the key file
 def load_temp(key,temp):
@@ -49,8 +49,9 @@ def load_temp(key,temp):
 def del_temp(temp):
     os.remove(temp)
 
-def test ():
-    load_temp(key, temp)
-    consumer_key, consumer_secret, access_token, access_token_secret = return_keys()
-    print(consumer_key, consumer_secret, access_token, access_token_secret)
+# Setup all the keys from the key File
+def key_setup():
+    load_temp(key,temp)
+    k1,k2,k3,k4 = return_keys()
     del_temp(temp)
+    return k1,k2,k3,k4
