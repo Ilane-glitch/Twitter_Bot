@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-__author__ = "Ilane"
-__version__ = "1.0"
+__author__ = 'Ilane'
+__version__ = '1.0'
 
 '''
     Imports
@@ -11,7 +11,7 @@ import bot
 '''
     Variables
 '''
-message=""
+message=''
 
 '''
     Main

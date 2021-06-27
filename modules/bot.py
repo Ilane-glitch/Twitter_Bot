@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__author__ = "Ilane"
+__author__ = 'Ilane'
 
 '''
     Imports
@@ -33,7 +33,7 @@ def tweetCall(message):
 
     try:
         api.verify_credentials()
-        print("Authentication OK")
+        print('Authentication OK')
     except:
-        print("Error during authentication")
+        print('Error during authentication')
 

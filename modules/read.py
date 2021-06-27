@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__author__ = "Ilane"
+__author__ = 'Ilane'
 
 '''
     Imports
@@ -26,7 +26,7 @@ def save_file(key,temp):
 
 # Remove all the lines w/ '#'
 def replace_all(path_):
-    with open(path_,"r+") as f:
+    with open(path_,'r+') as f:
         new_f = f.readlines()
         f.seek(0)
         for line in new_f:
@@ -36,7 +36,7 @@ def replace_all(path_):
 
 # Return all the keys from the temporary file
 def return_keys():
-    file = open(temp, "r")
+    file = open(temp, 'r')
     file.seek(0)
     return file.readline().replace('\n', ''), file.readline().replace('\n', ''), file.readline().replace('\n', ''), file.readline().replace('\n', '')
 
